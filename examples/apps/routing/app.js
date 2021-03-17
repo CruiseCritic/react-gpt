@@ -8,7 +8,6 @@ import Home from "./home";
 import Page from "./page";
 import styles from "./styles";
 
-Gpt.syncCorrelator();
 Gpt.enableSingleRequest();
 
 class App extends Component {
@@ -73,6 +72,9 @@ class AppContainer extends Component {
     };
 
     componentWillMount() {
+        // use new correlator value when the route changes
+        Gpt.updateCorrelator();
+
         this.unlisten = this.history.listen(location => {
             const route =
                 this.routes[location.pathname] || this.routes["/Travel/Europe"];

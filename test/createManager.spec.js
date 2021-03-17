@@ -21,11 +21,6 @@ describe("createManager", () => {
         window.googletag = undefined;
     });
 
-    it("accepts syncCorrelator", () => {
-        adManager.syncCorrelator(true);
-        expect(adManager._syncCorrelator).to.be.true;
-    });
-
     it("accepts pubads API before pubads is ready", done => {
         const apiStubs = {};
         pubadsAPI.forEach(method => {
@@ -291,10 +286,6 @@ describe("createManager", () => {
     });
 
     it("handles media query change", () => {
-        adManager.syncCorrelator();
-
-        const refresh = sinon.stub(googletag.pubads(), "refresh");
-
         googletag.pubadsReady = true;
 
         const instance = {
@@ -307,13 +298,6 @@ describe("createManager", () => {
         const instanceRefresh = sinon.stub(instance, "refresh");
 
         adManager.addInstance(instance);
-        adManager._handleMediaQueryChange({
-            media: "(min-width: 0px)"
-        });
-
-        expect(refresh.calledOnce).to.be.true;
-
-        adManager.syncCorrelator(false);
 
         adManager._handleMediaQueryChange({
             media: "(min-width: 0px)"
@@ -330,7 +314,6 @@ describe("createManager", () => {
 
         adManager.removeInstance(instance);
 
-        refresh.restore();
         instanceRefresh.restore();
     });
 
