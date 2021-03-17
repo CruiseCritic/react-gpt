@@ -1,5 +1,5 @@
 {
-    "name": "@gnta/react-gpt",
+    "name": "@CruiseCritic/react-gpt",
     "version": "2.0.3",
     "description": "A react display ad component using Google Publisher Tag",
     "main": "lib/index.js",
@@ -12,7 +12,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nfl/react-gpt"
+        "url": "https://github.com/CruiseCritic/react-gpt"
     },
     "keywords": [
         "react-gpt",
@@ -23,7 +23,7 @@
         "google publisher tags"
     ],
     "bugs": {
-        "url": "https://github.com/nfl/react-gpt/issues"
+        "url": "https://github.com/CruiseCritic/react-gpt/issues"
     },
     "files": [
         "*.md",
