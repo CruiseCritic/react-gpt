@@ -107,7 +107,7 @@
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
         "build": "npm run clean && npm run compile",
         "postinstall": "npm run build",
-        "install": "npm install",
+        "install": "yarn install",
         "build:es": "BABEL_ENV=es babel --copy-files ./src -d es",
         "build:umd": "NODE_ENV=development webpack src/index.js dist/react-gpt.js",
         "build:umd:min": "NODE_ENV=production webpack -p src/index.js dist/react-gpt.min.js",
