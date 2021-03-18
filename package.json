@@ -1,12 +1,12 @@
 {
-    "name": "@CruiseCritic/react-gpt",
+    "name": "@cruisecritic/react-gpt",
     "version": "2.0.3",
     "description": "A react display ad component using Google Publisher Tag",
     "main": "lib/index.js",
     "jsnext:main": "es/index.js",
     "contributors": [
         {
-            "name": "NFL Engineering"
+            "name": "Cruise Critic"
         }
     ],
     "license": "MIT",
@@ -101,9 +101,6 @@
         "prop-types": "^15.5.10",
         "react": "^15.0.1 || ^16.0.0",
         "react-dom": "^15.0.1 || ^16.0.0"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
     },
     "scripts": {
         "commit": "git-cz",

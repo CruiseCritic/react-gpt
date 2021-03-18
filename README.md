@@ -1,12 +1,4 @@
-<img align="right" height="200" src="http://static.nfl.com/static/content/public/static/img/logos/nfl-engineering-light.svg" />
-
 # React GPT
-
-[![npm Version](https://img.shields.io/npm/v/react-gpt.svg?style=flat-square)](https://www.npmjs.org/package/react-gpt)
-[![Build Status](https://img.shields.io/travis/nfl/react-gpt/master.svg?style=flat-square)](https://travis-ci.org/nfl/react-gpt)
-[![Dependency Status](https://img.shields.io/david/nfl/react-gpt.svg?style=flat-square)](https://david-dm.org/nfl/react-gpt)
-[![codecov.io](https://img.shields.io/codecov/c/github/nfl/react-gpt/master.svg?style=flat-square)](https://codecov.io/github/nfl/react-gpt?branch=master)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
 
 A [React](https://github.com/facebook/react) component for [Google Publisher Tags](https://developers.google.com/doubleclick-gpt/?hl=en).
 
@@ -129,7 +121,7 @@ class Application extends React.Component {
 Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).
 
 * [Pull requests](CONTRIBUTING.md#pull-requests)
-* [Development Process](CONTRIBUTING.md#development)
+* [Development Process](CONTRIBUTING.md#development-process)
 
 ## License
 
