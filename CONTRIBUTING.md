@@ -14,6 +14,10 @@ Good pull requests - patches, improvements, new features - are a fantastic
 help. They should remain focused in scope and avoid containing unrelated
 commits.
 
+The project uses `semantic-release` to make releases, which requires the commit messages to have a certain convention
+for the release action to be triggered. To find out more check [Commit message format](https://github.com/semantic-release/semantic-release#commit-message-format).
+
+
 **Please ask first** before embarking on any significant pull request (e.g.
 implementing features, refactoring code, porting to a different language),
 otherwise you risk spending a lot of time working on something that the
