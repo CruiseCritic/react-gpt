@@ -117,7 +117,7 @@ class Application extends React.Component {
 
 1. Clone this repo
 2. Run `yarn`
-3. Run `npm run examples` for client side rendering, `npm start` for server side rendering.
+3. Run `yarn examples` for client side rendering, `yarn start` for server side rendering.
 4. Point your browser to http://localhost:8080
 
 ## Contributing to this project
