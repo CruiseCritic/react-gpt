@@ -1,3 +1,7 @@
+[![Publish Package](https://github.com/CruiseCritic/react-gpt/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/CruiseCritic/react-gpt/actions/workflows/npm-publish.yml)
+
+***
+
 # React GPT
 
 A [React](https://github.com/facebook/react) component for [Google Publisher Tags](https://developers.google.com/doubleclick-gpt/?hl=en).
