@@ -1,4 +1,4 @@
-[![Publish Package](https://github.com/CruiseCritic/react-gpt/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/CruiseCritic/react-gpt/actions/workflows/npm-publish.yml)
+[![Release](https://github.com/CruiseCritic/react-gpt/actions/workflows/release.yml/badge.svg)](https://github.com/CruiseCritic/react-gpt/actions/workflows/release.yml)
 
 ***
 
