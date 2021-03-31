@@ -500,7 +500,14 @@ class Bling extends Component {
         if (this.getRenderWhenViewable()) {
             this.foldCheck();
         }
-        this.setState({scriptLoaded: true}, onScriptLoaded); // eslint-disable-line react/no-did-mount-set-state
+
+        if (this.isAdMounted()) {
+            this.setState({scriptLoaded: true}, onScriptLoaded);
+        }
+    }
+
+    isAdMounted() {
+        return Bling._adManager.getMountedInstances().includes(this);
     }
 
     onScriptError(err) {
