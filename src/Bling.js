@@ -495,15 +495,17 @@ class Bling extends Component {
     }
 
     onScriptLoaded() {
-        const {onScriptLoaded} = this.props;
+        if (!this.isAdMounted()) {
+            return;
+        }
 
         if (this.getRenderWhenViewable()) {
             this.foldCheck();
         }
 
-        if (this.isAdMounted()) {
-            this.setState({scriptLoaded: true}, onScriptLoaded);
-        }
+        const {onScriptLoaded} = this.props;
+
+        this.setState({scriptLoaded: true}, onScriptLoaded);
     }
 
     isAdMounted() {
